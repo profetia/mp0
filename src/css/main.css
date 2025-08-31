@@ -1,1 +1,33 @@
 /* Your CSS here. */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 723px;
+    height: 579px;
+    background-color: #656565;
+    color: #fefefe;
+    text-align: center;
+}
+
+.card .wrapper {
+    padding: 16px;
+}
+
+.card .wrapper .photo {
+    width: 150px;
+    height: 150px;
+}
+
+.card .wrapper .link {
+    margin-bottom: 20px;
+}
+
+.card .wrapper p {
+    text-align: left;
+}
